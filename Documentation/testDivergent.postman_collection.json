@@ -1,0 +1,57 @@
+{
+	"info": {
+		"_postman_id": "2549c0c1-b136-483b-b24b-ff0b8ffbe75a",
+		"name": "testDivergent",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15535759"
+	},
+	"item": [
+		{
+			"name": "Get data local 3 coins",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/data",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"data"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get data API",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-messari-api-key",
+						"value": "qEIlhNhe6pyKmQUHmRUFwYVp+Eo79gGc98Ek4NG8WpmHeJ4c",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://data.messari.io/api/v2/assets",
+					"protocol": "https",
+					"host": [
+						"data",
+						"messari",
+						"io"
+					],
+					"path": [
+						"api",
+						"v2",
+						"assets"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
