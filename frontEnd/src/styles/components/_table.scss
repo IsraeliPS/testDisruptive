@@ -1,0 +1,47 @@
+table {
+  table-layout: fixed;
+  width: 80%;
+  text-align: center;
+  margin: 10px;
+}
+
+table tbody tr:nth-child(odd) td {
+  background-color: rgb(22, 21, 21);
+}
+
+table tbody tr:nth-child(even) td {
+  background-color: black;
+}
+
+th {
+  font-size: 10px;
+  color: white;
+  background-color: black;
+}
+
+td {
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  margin: 10px 0;
+}
+
+tbody {
+  margin: 5px 0;
+}
+
+img {
+  max-width: 11px;
+  margin: 0 8px;
+}
+
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+
+.blue {
+  color: rgb(5, 139, 248);
+}

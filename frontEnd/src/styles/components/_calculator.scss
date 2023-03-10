@@ -1,0 +1,62 @@
+.container {
+  margin: 1rem;
+  height: 30vh;
+  width: 80%;
+
+  border-radius: 20px;
+  background: rgb(250, 232, 232);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  background-color: transparent;
+  width: 40%;
+}
+
+.btnCalc {
+  border: none;
+  color: white;
+  width: 100px;
+  background-color: #2f7dad;
+  &:hover {
+    background-color: #2f7dad;
+    box-shadow: 1px 1px 24px 8px rgba(55, 175, 250, 0.75);
+    -webkit-box-shadow: 1px 1px 24px 8px rgba(55, 175, 250, 0.75);
+    -moz-box-shadow: 1px 1px 24px 8px rgba(55, 175, 250, 0.75);
+    transition: 0.5s;
+  }
+}
+
+.title {
+  font-size: 22px;
+}
+
+.showValues {
+  margin: 0 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.imageCoin {
+  max-width: 30px;
+  margin: 20px;
+}
+
+.labelCoin {
+  background-color: white;
+  border-radius: 20px 0px 20px 0px;
+  text-align: right;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.red {
+  color: red;
+  visibility: visible;
+}
+.hidden {
+  visibility: hidden;
+}
